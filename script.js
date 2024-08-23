@@ -5,19 +5,19 @@ function loadNav(){
   '<ul>'+
   '<li><a href="./index.html">Home</a></li>'+
   '<hr></hr>'+
-  '<li><a href="../about/index.html">Neo, the human</a></li>'+
-  '<li><a href="../about/theoc.html">Neo, the OC</a></li>'+
-  '<li><a href="../about/harrow.html">Harrow</a></li>'+
-  '<li><a href="../about/fyodor.html">Fyodor</a></li>'+
+  '<li><a href="./about/index.html">Neo, the human</a></li>'+
+  '<li><a href="./about/theoc.html">Neo, the OC</a></li>'+
+  '<li><a href="./about/harrow.html">Harrow</a></li>'+
+  '<li><a href="./about/fyodor.html">Fyodor</a></li>'+
   '<hr></hr>'+
-  '<li><a href="../blog/index.html">Blog</a></li>'+
-  '<li><a href="../about/gamer.html">Gaming</a></li>'+
-  '<li><a href="../featured/music.html">Music</a></li>'+
-  '<li><a href="../featured/movies.html">Movies</a></li>'+
+  '<li><a href="./blog/index.html">Blog</a></li>'+
+  '<li><a href="./about/gamer.html">Gaming</a></li>'+
+  '<li><a href="./featured/music.html">Music</a></li>'+
+  '<li><a href="./featured/movies.html">Movies</a></li>'+
   '<hr></hr>'+
-  '<li><a href="../about_site/index.html">About the website</a></li>'+
-  '<li><a href="../about_site/changelog.html">Changelog</a></li>'+
-  '<li><a href="../about_site/credits.html">Credits</a></li>'+
+  '<li><a href="./about_site/index.html">About the website</a></li>'+
+  '<li><a href="./about_site/changelog.html">Changelog</a></li>'+
+  '<li><a href="./about_site/credits.html">Credits</a></li>'+
   '</ul>'+
   '</nav>';
 
@@ -31,11 +31,11 @@ function loadNav(){
   '<p style="color:#f1f1f1; margin:5px;">Friendos!</p>'+
   '<a href="https://tackyvillain.neocities.org/"><img src="https://tackyvillain.neocities.org/images/buttons/my_buttons/tackyvillain_web_button.png" alt="tackyvillain" title="tackyvillain"></a>'+
   '<hr>'+
-  '<img src="../buttons/tanks.png" alt="tanks">'+
-  '<img src="../buttons/asexual.png" alt="asexual">'+
-  '<img src="../buttons/pothead.gif" alt="pot">'+
-  '<img src="../buttons/quebec.gif" alt="quebec">'+
-  '<img src="../buttons/firefox2.gif" alt="firefox">'+
+  '<img src="./buttons/tanks.png" alt="tanks">'+
+  '<img src="./buttons/asexual.png" alt="asexual">'+
+  '<img src="./buttons/pothead.gif" alt="pot">'+
+  '<img src="./buttons/quebec.gif" alt="quebec">'+
+  '<img src="./buttons/firefox2.gif" alt="firefox">'+
   '<img src="./buttons/catscape.gif" alt="catscape">'+
   '</div>';
   }
