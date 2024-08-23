@@ -1,7 +1,7 @@
 function loadNav(){
   var prodUrl = "https://ne0dym7.github.io/"
   var devUrl = "file:///D:/Documents/Github/ne0dym7.github.io/"
-  var currentUrl = false ? prodUrl : devUrl;
+  var currentUrl = true ? prodUrl : devUrl;
 
 
   document.getElementById("nav").innerHTML =  '<div class="lsideimage-container"></div>'+
