@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ne0dym's ne0cities</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../script.js"></script>
+  </head>
+  
+  <body>
+
+    <!--HEADER-->
+    <header id="header">
+      <h1><a href="..\layout playground.html">ne0dym's ne0cities</a></h1>
+    </header>
+    <!--END HEADER-------------------->
+
+    <div class="mainbody">
+      <!--LEFT SIDEBAR------------------>
+      <div class="sidebar" id="nav"></div>
+      <!--END LEFT SIDEBAR-------------->
+
+      <!--CONTENT----------------------->
+      <div class="content">
+        <h2>ffxiv</h2>
+          <p style="text-align: right;">xx/xx/2024</p>
+          
+          <p>getting into <b>Final Fantasy XIV</b> was, in some ways, one of the most impactful decisions i made in recent memory: it granted me not only a plentiful source of creative energy, but also many dear friends and a life partner. due to its being an MMO whose story and combat are both slow-burns to newcomers, i feel that many friends who were never exposed to the genre, or who tried it but didn't stick around, have no idea what kind of game it is, gameplay-wise. what could possibly be so intriguing in an MMO that me and many others would spend several thousands of hours on it? in this post i want to talk about the combat in FFXIV and my main activity in it, called "raiding".</p>
+
+          <h4>introduction</h4>
+          <p>FFXIV was not my first MMO; i played a lot of Dofus as a kid, but since it is a tactical turn-based game, it is nothing like typical MMOs like World of Warcraft or indeed FFXIV. so when i got into FFXIV definitively in 2020, i had no idea what kind of combat content awaited me. since i'd had my first contact with the game in 2017 when i almost got to the end of the base 2.0 questline, i knew about dungeons and bosses (called "trials") and that there were different classes (jobs) and that combat worked by targeting an enemy and pressing buttons on your hotbar. but the fights in the base game were often dull, with no real challenges, or confusing, with poorly-explained mechanics; moreover, a side effect of the game's evolution is that, since you lack most of your buttons and resources at early levels (up to lvl 50), they just feel very sluggish. these are some reasons why ARR (the base game) is a filter for new players.</p>
+          <p>however, if one persists through the relatively boring start, they will soon be presented with more interesting fights and equipped with more skills to face them with. FFXIV has a lengthy main scenario questline (MSQ) which is mandatory to unlock everything else; the game is designed in such a way that the fights required for the MSQ are quite simple, accessible to gamers of all backgrounds and skill levels. as one progresses through the main story, they'll be able to unlock optional side content which includes fights of varying difficulty as well as non-combat activities. i'll be focusing on the combat ones in this article.</p>
+
+          <h4>how the game works</h4>
+          <p>FFXIV is a miracle of a game because it literally rose from the ashes of its original version, and its inner workings are a spaghetti code of weird design choices and lingering quirks from a rushed re-development. many aspects of 14's combat are not intuitive to a modern gamer, but we learn to live with, accept and even love these quirks. (personally, having played for 4 years and mastered these odd mechanics, i thoroughly enjoy the combat.) to fully comprehend how the game works, we must learn some jargon:</p>
+          <ul>
+            <li><b>netcode</b>: because this is an online multiplayer game, there is an unavoidable disparity between what you see on your screen, what your friend sees on theirs, and what the servers think both of you were doing. this is related to the <b>server tick rate</b>, the rate at which the servers calculate positions, numbers, events etc. this means that actions (by enemies or players) don't take effect instantly, which may be beneficial to players or a nuisance. compared to other multiplayer titles, 14 has a slow tick rate and poor netcode.</li>
+            <li><b>snapshot</b>: so when an enemy prepares an attack, there is a point in time where the servers decide who gets hit by the attack and how much damage they take based on several factors. this is called "snapshotting", since it's like the servers take a picture of that moment to determine the result. also applies to player actions such as damage or heals under buffs. in most modern fights, enemy attacks are accompanied by a castbar and/or a visual indicator on the floor (like a circle or cone), with an animation playing when the cast finishes; thus, experienced players can time their movements to be outside the area of effect (<b>AOE</b>) exactly when the snapshot occurs and move back in afterwards without taking damage, as the animation is usually only for flavour.</li>
+            <li><b>cooldown</b>: some skills can only be used once every x seconds or minutes; this timer between uses is called cooldown or CD. the term may also refer to those skills themselves, in particular defensive ones. it's generally good practice to use actions "on cooldown" (as soon as they're available), and the failure to do so may cause abilities to <b>drift</b>.</li>
+            <li><b>GCD</b>: actions classified as "weaponskills" or "spells" (with few exceptions) share a global cooldown, meaning that using one of them triggers a cooldown for all like actions, during which time you can only use oGCDs. the term may also refer to those actions themselves. the default GCD in FFXIV is 2.50 seconds, which makes early leveling painfully slow, and it can be lowered or increased depending on stats and job. at higher levels, the seemingly long cooldown is a non-issue, as you have plenty of tools to use while the timer rolls, and it also allows for more strategic play.</li>
+            <li><b>oGCD</b>: actions classified as "abilities" (with few exceptions) have their own cooldowns separate from the GCD, allowing them to be used while the GCD is rolling. the term means "off-global cooldown" and may also refer to those actions themselves.</li>
+            <li><b>rotation</b>: skills are not meant to be used at random. be they intended by the devs or workshopped by the players, for all jobs there is a sequence of button presses that optimises damage dealt, nicknamed a rotation because it's repeated over and over during a fight. for instance, a rotation can be a 5-part combo A that leads into another 5-part combo B that leads back to A, with buffs used at specific spots in that sequence in order to get the most out of them. an <b>opener</b> is the part of the rotation at the beginning of a fight/phase when all player's self and party buffs sync up, which basically repeats every 2 minutes during <b>bursts</b>.</li>
+            <li><b>mechanics</b>: fundamentally, they're like conditions that must be resolved by players, serving as building blocks of all fights: for example, to stand in a specific spot in the arena, or to stack together to share damage, or to "bait" an enemy's attack safely away from the group. such building blocks can be combined into larger, puzzle-like mechanics that require strategy, precision and communication between players to ensure success. many people describe fights in 14 as "dances", as they all follow a script with predictable patterns and a limited number of solutions.</li>
+          </ul>
+          <p>so mastering combat in FFXIV means developing skills on two levels. on a personal level, one must learn their job's tools and be able to perform its rotation optimally and consistently, as well as adapt it to each fight's circumstances. and on an external level, one must become familiar with the pieces that make up every puzzle, quickly understand what they must do to resolve a mechanic, and be aware not only of their own role in each dance but also those of other people. this creates a pretty distinct type of gameplay that i had never encountered before playing 14, and which probably mystifies non-players and newcomers alike.
+          
+          <h4>dungeons, trials, raids</h4>
+          <p>a casual player going through MSQ for the first time will need to complete dozens of so-called instanced duties, and to make it easier for MMO-averse people to progress, all of the mandatory dungeons are soloable, with AI-controlled NPCs filling missing roles. however, to complete trials and raids, be they required for story progression or optional side content, one must have a full party with other humans. here i'll introduce some more jargon:</p>
+          <ul>
+            <li><b>party sizes</b>: a <b>light party</b> refers to a group of fewer than 8 people, with 4 being the standard party size for dungeons. a <b>full party</b> therefore is a group of 8 people, the standard size for trials and raids. a set of multiple parties is an <b>alliance</b>.</li>
+            <li><b>roles</b>: like many multiplayer games, classes are grouped in roles: <span style="color: blue;">tank</span>, <span style="color: green;">healer</span> and <span style="color: red;">DPS</span>, the "holy trinity". DPS make up the bulk of the damage dealt, but supports should also strive to deal as much damage as possible on top of having their own responsibilities. while parties may have any composition, ideally they are comprised of: <span style="color: blue;">1T</span> <span style="color: green;">1H</span>  <span style="color: red;">2D</span> for light parties and <span style="color: blue;">2T</span> <span style="color: green;">2H</span>  <span style="color: red;">4D</span> for full parties. in many 8-player content, the group may also be split into two light parties with said makeup.</li>
+            <li><b>DPS check, enrage & wipe</b>: most content that is not casual contains an enrage, which is a time limit to defeat the boss. the damage required to kill before the enrage is thus called DPS check, since DPS means damage-per-second. when the boss completes their enrage, or when certain mechanics are not resolved properly, a wipe ensues: everyone dies and the fight is reset.</li>
+            <li><b>prog</b>: short for progression, this means the act of learning a fight phase by phase, mechanic by mechanic. a prog point is the furthest point in the fight which a group has reached consistently and tries to succeed at, and once an entire fight has been learned and the boss has been defeated, we call it a <b>clear</b>.</li>
+          </ul>
+          <p>now that we know a good deal of FFXIV lingo, i can actually get to the battle content in this game! here's what a new player will come across as they level up:</p>
+
+          <table>
+            <tr><th colspan="4">the casual</th></tr>
+            <tr>
+              <th>dungeons</th>
+              <th>trials</th>
+              <th>normal raids</th>
+              <th>alliance raids</th>
+            </tr>
+            <tr>
+              <td>instances where the group defeats 3 bosses (usually) with packs of smaller "trash mobs" in between. mechanics are few and simple, and stakes are low; they are designed to be completed by anyone regardless of skill. variant dungeons are a new type of dungeon that can be run with any party composition and contain multiple routes with different bosses.</td>
+              <td>shorter than dungeons but typically longer than their bosses, they are boss fights with more intricate mechanics but that are still not very challenging, found both in the MSQ and in side questlines. usually contain only one encounter in a single arena.</td>
+              <td>in the modern sense, they are quite similar to trials in that they contain a single fight, but they're usually a bit more challenging than them. they are found in optional questlines and split into three "tiers" of four "floors" each. some of the older raids are a little like dungeons, having trash mobs or multiple smaller bosses.</td>
+              <td>except for the first series which is mandatory for MSQ, they are found in optional questlines, each expansion having three. as the name implies, they are designed for a group of 24 players (three parties of 8). similarly to dungeons, they may have trash mobs or minibosses in between bosses. the difficulty is around the same as raids, but they can be pretty chaotic.</td>
+            </tr>
+          </table>
+          <p>as they level up and gain experience, however, a player may look for new challenges to test and improve their skills:</p>
+          <table>
+            <tr><th colspan="4">the hard</th></tr>
+            <tr>
+              <th>extreme trials</th>
+              <th>field operations</th>
+              <th>criterion dungeons</th>
+              <th>savage raids</th>
+            </tr>
+            <tr>
+              <td>extreme trials are the entry point of many players into high-end content at level cap, having a low barrier to entry. they contain more mechanics than their casual counterparts, and these are more complex and can cause wipes, requiring some level of strategy by the players.</td>
+              <td>these peculiar duties are not necessarily hard in terms of mechanics, but more so in the logistics of getting a group to do them. ranging in difficulty from alliance raids to savage raids, they may have unique features such as restrictions on resurrects, or special skills or items.</td>
+              <td>harder versions of variants meant to be run in a standard composition and contain a single route. trash mobs are their own minibosses, and bosses have extreme or savage-level mechanics that can wipe the group. also has a savage version, which goes mostly the same but has a hard time limit and stricter DPS checks.</td>
+              <td>the meat of 14's raiding scene, their mechanics are a step up in difficulty from extreme trials, with each successive floor usually being harder than the previous. the last boss of each tier might have a second phase that's not present in casual mode, with or without a checkpoint. players need an agreed-upon strategy to succeed.</td> 
+            </tr>
+          </table>
+          <p>according to achievement-tracking site FFXIV collect, roughly 65% of players completed the last normal raid tier in endwalker, and only 14% completed its savage mode. savage raids are the hardest content a great portion of players will ever attempt, but to experienced players like me, even they stop being super challenging. but i haven't written like 2000 words so far to talk about easy game for babies. no, i promised to talk about the hardcore fights, the ones that we give blood sweat and tears to see through, that make us spend months in prog and shout for joy when we finally clear.</p>
+          
+
+        <br><br>
+
+        
+      </div>
+      <!--END CONTENT------------------->
+
+    <!--RIGHT SIDEBAR------------------>
+    <div class="rightsidebar" id="buttons"></div>
+    <!--END RIGHT SIDEBAR-------------->
+
+    </div>
+
+    <!--FOOTER------------------------>
+    <footer>
+      <div class="floatimg"><img src="..\harrow images\transpharrow.png"></div>
+      <p>© ne0dym 2024-forever</p>
+    </footer>
+    <!--END FOOTER-------------------->
+
+  </body>
+</html>

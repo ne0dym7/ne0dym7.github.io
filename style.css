@@ -1,0 +1,490 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+  @font-face {
+    font-family: 'Aller_Rg';
+    src: url("./Aller/Aller_Rg.ttf");
+  }
+
+  @font-face{
+    font-family: 'AllerDisplay';
+    src: url("./Aller/AllerDisplay.ttf");
+  }
+
+  ::selection{
+    background-color: #E5A02D;
+    color: #202020;
+  }
+
+  mark{
+    color: #E5A02D;
+    background-color: transparent;
+  }
+  
+  b {
+    color: #E5A02D;
+  }
+
+  details > summary{
+    cursor: pointer;
+  }
+
+  h4{
+    margin: 0;
+  }
+
+  /*TEMPLATE CSS---------------------*/
+
+
+  html {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #202020;
+    position: relative;
+  }
+
+  body {
+    background-color: white;
+    color: black;
+    font-family: 'Aller_Rg';
+    text-align: justify;
+  }
+
+  /*HEADER-----*/
+
+  header {
+    color: #E5A02D;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #898989;
+    background-color: #202020;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  header a{
+    text-decoration: none;
+  }
+
+  /*NAV CONTAINER*/
+
+  nav {
+    align-items: stretch;
+    margin-top: -1rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 0;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+
+
+  /*FOOTER----*/
+
+  footer {
+    position: relative;
+    color: #E5A02D;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #898989;
+    background-color: #202020;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  footer p{
+    margin: 0;
+  }
+
+  /*ENTIRE SIDEBAR*/
+
+  .sidebar{
+    margin-right: 10px;
+    float: left;
+    min-width: 150px;
+    max-width: 400px;
+    width: 25%;
+    align-items: stretch;
+    background-color: #202020;
+    border-left: solid; border-right: solid;
+    border-color: #898989;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23000000' fill-opacity='0.13'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .sidebar ul li{
+    max-width: 200px;
+    background-color: #E5A02D;
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    outline: inset;
+    text-align: center;
+  } 
+
+  .sidebar ul li:hover{
+    background-color: #800000;
+    color: #F1F1F1;
+  }
+
+  .sidebar ul li a{
+    display: block;
+    text-decoration: none;
+  }
+
+  .sidebar a:visited{
+    background: none;
+    color: inherit;
+  }
+
+  .sidebar a:hover{
+    background: none;
+    color: inherit;
+  }
+
+  /*IMAGE IN SIDEBAR*/
+
+  .lsideimage-container {
+    width: 100%;
+    height: 38%;
+    background-image: url('file:///D:/Documents/Neocities/neo images/highres/2019-siins-transp-layout.png'); 
+    background-size: 390px 390px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  /*RIGHT SIDEBAR-----*/
+
+  .rightsidebar{
+    margin-left: 10px;
+    float: right;
+    min-width: 150px;
+    max-width: 175px;
+    width: 25%;
+    align-items: stretch;
+    background-color: #202020;
+    border-left: solid;
+    border-color: #898989;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23000000' fill-opacity='0.13'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    overflow-y: auto;
+  }
+
+  .floatimg{
+    position: absolute;
+    bottom: -16%;
+    right: -11%;
+    pointer-events: none;
+  }
+
+  .floatimg img{
+    height: auto;
+    width: 21rem;
+    filter: drop-shadow(3px 1px 4px black);
+    z-index: 9999; 
+  }
+
+  /*MAIN BODY & CONTENT*/
+
+  .mainbody{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    border-right: solid;
+    border-color: #898989;
+    background-color: #202020;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.13'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-left: 3rem; padding-right: 3rem;
+    max-height: 1000px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    vertical-align: top;
+    border-left: solid; border-right: solid;
+    border-color: #898989;
+    color: #202020;
+    background-color: #f1f1f1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23202020' fill-opacity='0.05'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  /*INSERTS-----*/
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inserts {
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    overflow-y: auto;
+    border-style: double;
+    border-color: #898989;
+    color: #202020;
+    background-color: #f1f1f1;
+    align-content: flex-start;
+    scrollbar-gutter: stable;
+  }
+  
+
+  .inserts h3{
+    margin: 0;
+    color: #E5A02D;
+    text-align: center;
+  }
+
+  .inserts h3 a{
+    text-decoration: none;
+  }
+
+  .mediacontainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .musicembed {
+    display: inline-block;
+    width: 45%;
+    padding: 0.5rem;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .musicembed p{
+    margin: 0;
+  }
+
+  .musiccaption{
+    max-height: 200px;
+    overflow-y: scroll;
+    display: inline;
+  }
+
+  .musiccaption p{
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+
+  .filmcontainer {
+    display: inline-block;
+    width: 260px;
+  }
+
+  .filmposter{
+    position: relative;
+    max-width: 100%;
+  }
+
+  .filmposter img{
+    object-fit: cover;
+    vertical-align: top;
+    text-align: center;
+    height: 400px;
+    max-width: 100%;
+  }
+
+  .filmcaption{
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .filmcaption p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;   
+  }
+
+  .filmoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0,0,0,0.9);
+  }
+  
+  .filmposter:hover .filmoverlay {
+    opacity: 1;
+  }
+  
+  .filmoverlay p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  /*BLOG STUFF--------*/
+
+  .blogcontainer {
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    border-style: double;
+    border-color: #898989;
+    color: #202020;
+    background-color: #f1f1f1;
+    align-content: flex-start;
+  }
+  
+
+  .blogcontainer h3{
+    margin: 0;
+    color: #202020;
+    text-align: left;
+  }
+
+  .blogcontainer h3 a{
+    text-decoration: none;
+  }
+
+  .blogcontainer h5{
+    margin: 0;
+  }
+
+  .blogtags{
+    overflow-wrap: anywhere;
+  }
+
+  .readmore a{
+    text-decoration: none;
+    font-family: 'AllerDisplay';
+    font-size: 110%;
+  }
+
+  .blogimage{
+    text-align: center;
+  }
+
+  .blogimage img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .blogcaption {
+    text-align: center;
+  }
+
+  .blogcaption p{
+    font-size: small;
+    margin-bottom: 0px;
+    margin-top: 0.5rem;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  td {
+    border: 1px solid #898989;
+    text-align: left;
+    vertical-align: top;
+    padding: 8px;
+  }
+  
+  th {
+    border: 1px solid #898989;
+    text-align: center;
+  }
+
+  /*MAIN LINK STUFF*/
+
+  a{
+    color: inherit;
+  }
+  a:hover{
+    color: #E5A02D;
+  }
+
+
+/*RESPONSIVE GALLERY CODE------------*/
+
+  .gallerycontainer{
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .imagegallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .imagegallery > li {
+    flex-basis: 600px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .imagegallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 500px;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+
+  /* (B) POSITION CAPTION -----------*/
+  .imagegallery { position: relative; }
+  .imgcaption {
+    /* (B1) PLACE AT BOTTOM ---------*/
+    position: absolute; bottom: 0; left: 0;
+    text-align: center;
+    border-radius: 5px;
+    
+  
+    /* (B2) DIMENSIONS + COLORS----- */
+    width: 100%; padding-top: 15px; padding-bottom: 15px;
+    color: #fff; background: rgba(0, 0, 0, 1);
+    text-align: center;
+  }
+  /* (C) ONLY SHOW CAPTION ON HOVER -*/
+  .imgcaption {
+    visibility: none; opacity: 0;
+  }
+  .imagegallery li:hover .imgcaption{
+    visibility: visible; opacity: 1;
+  }
