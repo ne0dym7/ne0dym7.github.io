@@ -40,6 +40,7 @@ function loadNav(){
   '<img src="'+currentUrl+'buttons/asexual.png" alt="asexual">'+
   '<img src="'+currentUrl+'buttons/pothead.gif" alt="pot">'+
   '<img src="'+currentUrl+'buttons/quebec.gif" alt="quebec">'+
+  '<img src="'+currentUrl+'buttons/rammtl.png" alt="rammstein">'+
   '<img src="'+currentUrl+'buttons/firefox2.gif" alt="firefox">'+
   '<img src="'+currentUrl+'buttons/catscape.gif" alt="catscape">'+
   '</div>';
