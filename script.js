@@ -29,7 +29,7 @@ function loadNav(){
   document.getElementById("buttons").innerHTML = '<div class="mediacontainer">'+
   '<details>'+
   '<summary style="color:#f1f1f1; margin:5px;">My button! </summary> '+
-  '<div style="overflow:auto; white=space:no=wrap; color:#f1f1f1; border:1px solid #800000; margin:5px;"><code><xmp><a href="https://ne0dym.com"><img src="https://ne0dym7.com/neobutton.png" alt="ne0dym button"></a></xmp></code></div>'+
+  '<div style="overflow:auto; white=space:no=wrap; color:#f1f1f1; border:1px solid #800000; margin:5px;"><code><xmp><a href="https://ne0dym.com"><img src="https://ne0dym.com/neobutton.png" alt="ne0dym button"></a></xmp></code></div>'+
   '</details>'+
   '<a href="'+currentUrl+'index.html"><img src="'+currentUrl+'neobutton.png" alt="ne0dym button"></a>'+
   '<hr>'+
