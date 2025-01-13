@@ -1,7 +1,7 @@
 function loadNav(){
   var prodUrl = "https://ne0dym.com/"
   var devUrl = "file:///D:/Documents/Github/ne0dym7.github.io/"
-  var currentUrl = true ? prodUrl : devUrl;
+  var currentUrl = false ? prodUrl : devUrl;
 
 
   document.getElementById("nav").innerHTML =  '<div class="lsideimage-container"></div>'+
@@ -19,6 +19,7 @@ function loadNav(){
   '<li><a href="'+currentUrl+'about/gamer.html">Gaming</a></li>'+
   '<li><a href="'+currentUrl+'featured/music.html">Music</a></li>'+
   '<li><a href="'+currentUrl+'featured/movies.html">Movies</a></li>'+
+  '<li><a href="'+currentUrl+'featured/collection.html">Collection</a></li>'+
   '<hr></hr>'+
   '<li><a href="'+currentUrl+'about_site/index.html">About the website</a></li>'+
   '<li><a href="'+currentUrl+'about_site/changelog.html">Changelog</a></li>'+
@@ -32,9 +33,6 @@ function loadNav(){
   '<div style="overflow:auto; white=space:no=wrap; color:#f1f1f1; border:1px solid #800000; margin:5px;"><code><xmp><a href="https://ne0dym.com"><img src="https://ne0dym.com/neobutton.png" alt="ne0dym button"></a></xmp></code></div>'+
   '</details>'+
   '<a href="'+currentUrl+'index.html"><img src="'+currentUrl+'neobutton.png" alt="ne0dym button"></a>'+
-  '<hr>'+
-  '<p style="color:#f1f1f1; margin:5px;">Friendos!</p>'+
-  '<a href="https://tackyvillain.neocities.org/"><img src="https://tackyvillain.neocities.org/images/buttons/my_buttons/tackyvillain_web_button.png" alt="tackyvillain" title="tackyvillain"></a>'+
   '<hr>'+
   '<img src="'+currentUrl+'buttons/tanks.png" alt="tanks">'+
   '<img src="'+currentUrl+'buttons/asexual.png" alt="asexual">'+
