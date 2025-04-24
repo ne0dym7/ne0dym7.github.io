@@ -1,8 +1,3 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
-
   @font-face {
     font-family: 'Aller_Rg';
     src: url("./Aller/Aller_Rg.ttf");
@@ -467,21 +462,18 @@
     border-radius: 5px;
   }
 
-  /* (B) POSITION CAPTION -----------*/
+  /* POSITION CAPTION -----------*/
   .imagegallery { position: relative; }
   .imgcaption {
-    /* (B1) PLACE AT BOTTOM ---------*/
     position: absolute; bottom: 0; left: 0;
     text-align: center;
     border-radius: 5px;
-    
-  
-    /* (B2) DIMENSIONS + COLORS----- */
+
     width: 100%; padding-top: 15px; padding-bottom: 15px;
     color: #fff; background: rgba(0, 0, 0, 1);
     text-align: center;
   }
-  /* (C) ONLY SHOW CAPTION ON HOVER -*/
+
   .imgcaption {
     visibility: none; opacity: 0;
   }
