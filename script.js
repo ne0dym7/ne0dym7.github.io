@@ -34,11 +34,13 @@ function loadNav(){
   '</details>'+
   '<a href="'+currentUrl+'index.html"><img src="'+currentUrl+'neobutton.png" alt="ne0dym button"></a>'+
   '<hr>'+
-  '<img src="'+currentUrl+'buttons/matrix-ace.gif" alt="asexual" style="height: 31px; width: 88px;">'+
-  '<img src="'+currentUrl+'buttons/matrix-nb.gif" alt="nb" style="height: 31px; width: 88px;">'+
-  '<img src="'+currentUrl+'buttons/pothead.gif" alt="pot">'+
-  '<img src="'+currentUrl+'buttons/rammtl.png" alt="rammstein">'+
-  '<img src="'+currentUrl+'buttons/firefox2.gif" alt="firefox">'+
+  '<img src="'+currentUrl+'buttons/acestamp.png" style="width: 88px;">'+
+  '<img src="'+currentUrl+'buttons/nbstamp.png" style="width: 88px;">'+
+  '<img src="'+currentUrl+'buttons/matrix.gif" style="width: 88px;">'+
+  '<img src="'+currentUrl+'buttons/pothead.gif">'+
+  '<img src="'+currentUrl+'buttons/rammtl.png">'+
+  '<img src="'+currentUrl+'buttons/firefox2.gif">'+
+  '<img src="'+currentUrl+'buttons/neko.png" style="width: 88px;">'+
   '</div>';
   }
 
