@@ -12,7 +12,7 @@ function loadNav(){
   '<hr></hr>'+
   '<li><a href="'+currentUrl+'about/index.html">Neo, the human</a></li>'+
   '<li><a href="'+currentUrl+'about/theoc.html">Neo, the OC</a></li>'+
-  '<li><a href="'+currentUrl+'about/harrow.html">Harrow</a></li>'+
+  '<li><a href="'+currentUrl+'about/harrow-ooc.html">Harrow</a></li>'+
   '<li><a href="'+currentUrl+'about/fyodor.html">Fyodor</a></li>'+
   '<hr></hr>'+
   '<li><a href="'+currentUrl+'blog/index.html">Blog</a></li>'+
