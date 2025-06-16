@@ -40,6 +40,7 @@ function loadNav(){
   '<img src="'+currentUrl+'buttons/pothead.gif">'+
   '<img src="'+currentUrl+'buttons/rammtl.png">'+
   '<img src="'+currentUrl+'buttons/firefox2.gif">'+
+  '<img src="'+currentUrl+'buttons/cat.jpg" style="width: 88px;">'+
   '<img src="'+currentUrl+'buttons/neko.png" style="width: 88px;">'+
   '</div>';
   }
