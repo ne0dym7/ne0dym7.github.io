@@ -12,7 +12,7 @@ function loadNav(){
   '<hr></hr>'+
   '<li><a href="'+currentUrl+'about/index.html">Neo, the human</a></li>'+
   '<li><a href="'+currentUrl+'about/theoc.html">Neo, the OC</a></li>'+
-  '<li><a href="'+currentUrl+'about/harrow.html">Harrow</a></li>'+
+  '<li><a href="'+currentUrl+'about/harrow-ooc.html">Harrow</a></li>'+
   '<li><a href="'+currentUrl+'about/fyodor.html">Fyodor</a></li>'+
   '<hr></hr>'+
   '<li><a href="'+currentUrl+'blog/index.html">Blog</a></li>'+
@@ -40,6 +40,7 @@ function loadNav(){
   '<img src="'+currentUrl+'buttons/pothead.gif">'+
   '<img src="'+currentUrl+'buttons/rammtl.png">'+
   '<img src="'+currentUrl+'buttons/firefox2.gif">'+
+  '<img src="'+currentUrl+'buttons/cat.jpg" style="width: 88px;">'+
   '<img src="'+currentUrl+'buttons/neko.png" style="width: 88px;">'+
   '</div>';
   }
