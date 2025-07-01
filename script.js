@@ -1,6 +1,6 @@
 function loadNav(){
   var prodUrl = "https://ne0dym.com/"
-  var devUrl = "file:///D:/Documents/Github/ne0dym7.github.io/"
+  var devUrl = "file:///D:/Documents (storage)/Github/ne0dym7.github.io/"
   var currentUrl = true ? prodUrl : devUrl;
 
 
