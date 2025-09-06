@@ -34,14 +34,17 @@ function loadNav(){
   '</details>'+
   '<a href="'+currentUrl+'index.html"><img src="'+currentUrl+'neobutton.png" alt="ne0dym button"></a>'+
   '<hr>'+
+  '<p style="color:#f1f1f1";>Friends with cool sites!</p>'+
+  '<a href="https://sunshinemoon.zone/"><img src="https://sunshinemoon.zone/Images/sunshine%20moon%20button.png" alt="SUNSHINE MOON DOT ZONE"></a>'+
+  '<a href="https://tackyvillain.neocities.org/"><img src="https://tackyvillain.neocities.org/images/buttons/my_buttons/tackyvillain_web_button.png" alt="tackyvillain" title="tackyvillain"></a>'+
+  '<hr>'+
   '<img src="'+currentUrl+'buttons/acestamp.png" style="width: 88px;">'+
   '<img src="'+currentUrl+'buttons/nbstamp.png" style="width: 88px;">'+
   '<img src="'+currentUrl+'buttons/matrix.gif" style="width: 88px;">'+
   '<img src="'+currentUrl+'buttons/pothead.gif">'+
   '<img src="'+currentUrl+'buttons/rammtl.png">'+
-  '<img src="'+currentUrl+'buttons/firefox2.gif">'+
   '<img src="'+currentUrl+'buttons/cat.jpg" style="width: 88px;">'+
-  '<img src="'+currentUrl+'buttons/neko.png" style="width: 88px;">'+
+  '<img src="'+currentUrl+'buttons/firefox2.gif">'+
   '</div>';
   }
 
