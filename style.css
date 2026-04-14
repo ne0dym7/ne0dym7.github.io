@@ -450,7 +450,6 @@
   .imagegallery > li {
     flex-basis: 600px;
     position: relative;
-    cursor: pointer;
   }
 
   .imagegallery li img {
